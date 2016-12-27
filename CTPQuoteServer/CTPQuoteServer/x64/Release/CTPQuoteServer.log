@@ -1,0 +1,24 @@
+﻿生成启动时间为 2016/12/19 22:00:27。
+     1>项目“F:\WugeSth\WugeCode\CTP\Projects\CTPQuoteServer\CTPQuoteServer\CTPQuoteServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_ctpquoteserver.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_ctpquoteserver.cpp, GeneratedFiles\Release\moc_ctpquoteserver.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_MdSpi.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_MdSpi.cpp, GeneratedFiles\Release\moc_MdSpi.cpp.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.7.0\5.7\msvc2013_64\include /I.\GeneratedFiles\Release /ID:\Qt\Qt5.7.0\5.7\msvc2013_64\include\QtCore /ID:\Qt\Qt5.7.0\5.7\msvc2013_64\include\QtGui /ID:\Qt\Qt5.7.0\5.7\msvc2013_64\include\QtSql /ID:\Qt\Qt5.7.0\5.7\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ctpquoteserver.cpp
+         ctpquoteserver.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\WugeSth\WugeCode\CTP\Projects\CTPQuoteServer\x64\Release\\CTPQuoteServer.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.7.0\5.7\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Sql.lib Qt5Widgets.lib thostmduserapi.lib thosttraderapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"F:\WugeSth\WugeCode\CTP\Projects\CTPQuoteServer\x64\Release\CTPQuoteServer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\WugeSth\WugeCode\CTP\Projects\CTPQuoteServer\x64\Release\CTPQuoteServer.lib" /MACHINE:X64 x64\Release\ctpquoteserver.obj
+         x64\Release\qrc_ctpquoteserver.obj
+         x64\Release\moc_ctpquoteserver.obj
+         x64\Release\moc_MdSpi.obj
+         x64\Release\main.obj
+         x64\Release\MdSpi.obj
+         x64\Release\tinystr.obj
+         x64\Release\tinyxml.obj
+         x64\Release\tinyxmlerror.obj
+         x64\Release\tinyxmlparser.obj
+         CTPQuoteServer.vcxproj -> F:\WugeSth\WugeCode\CTP\Projects\CTPQuoteServer\x64\Release\CTPQuoteServer.exe
+     1>已完成生成项目“F:\WugeSth\WugeCode\CTP\Projects\CTPQuoteServer\CTPQuoteServer\CTPQuoteServer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.75

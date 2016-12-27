@@ -1,0 +1,9 @@
+<?xml version=1.0 encoding=GB2312?>
+<root>
+   <config>
+	<server>127.0.0.1</server>
+	<database>ctp</server>
+	<uid>sa</server>
+	<pwd>hundsun@1</server>
+   </config>
+</root>

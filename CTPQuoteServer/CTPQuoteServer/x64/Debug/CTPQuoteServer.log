@@ -1,0 +1,24 @@
+﻿Build started 2016/12/21 10:11:45.
+     1>Project "D:\QtProject\CTPQuoteServer\CTPQuoteServer\CTPQuoteServer.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_ctpquoteserver.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_ctpquoteserver.cpp, GeneratedFiles\Release\moc_ctpquoteserver.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_MdSpi.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_MdSpi.cpp, GeneratedFiles\Release\moc_MdSpi.cpp.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.3.2\5.3\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.3.2\5.3\msvc2013_64\include\QtCore /IC:\Qt\Qt5.3.2\5.3\msvc2013_64\include\QtGui /IC:\Qt\Qt5.3.2\5.3\msvc2013_64\include\QtSql /IC:\Qt\Qt5.3.2\5.3\msvc2013_64\include\QtWidgets /IF:\ems\libsodium_vc120.0.5.0.0\build\native\include\ /IF:\ems\libzmq_vc120.4.2.0.0\build\native\include\ /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /D HAVE_LIBSODIUM /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ctpquoteserver.cpp
+         ctpquoteserver.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\QtProject\CTPQuoteServer\x64\Debug\\CTPQuoteServer.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.3.2\5.3\msvc2013_64\lib /LIBPATH:F:\ems\libsodium_vc120.0.5.0.0\build\native\bin\ /LIBPATH:F:\ems\libzmq_vc120.4.2.0.0\build\native\bin\ C:\Qt\Qt5.3.2\5.3\msvc2013_64\lib\qtmaind.lib C:\Qt\Qt5.3.2\5.3\msvc2013_64\lib\Qt5Cored.lib C:\Qt\Qt5.3.2\5.3\msvc2013_64\lib\Qt5Guid.lib C:\Qt\Qt5.3.2\5.3\msvc2013_64\lib\Qt5Sqld.lib C:\Qt\Qt5.3.2\5.3\msvc2013_64\lib\Qt5Widgetsd.lib thostmduserapi.lib thosttraderapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib advapi32.lib crypt32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\QtProject\CTPQuoteServer\x64\Debug\CTPQuoteServer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\QtProject\CTPQuoteServer\x64\Debug\CTPQuoteServer.lib" /MACHINE:X64 x64\Debug\ctpquoteserver.obj
+         x64\Debug\moc_ctpquoteserver.obj
+         x64\Debug\moc_MdSpi.obj
+         x64\Debug\qrc_ctpquoteserver.obj
+         x64\Debug\main.obj
+         x64\Debug\MdSpi.obj
+         x64\Debug\tinystr.obj
+         x64\Debug\tinyxml.obj
+         x64\Debug\tinyxmlerror.obj
+         x64\Debug\tinyxmlparser.obj
+         CTPQuoteServer.vcxproj -> D:\QtProject\CTPQuoteServer\x64\Debug\CTPQuoteServer.exe
+     1>Done Building Project "D:\QtProject\CTPQuoteServer\CTPQuoteServer\CTPQuoteServer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.43
